@@ -1,12 +1,12 @@
 {
   "name": "wewe-rss",
-  "version": "2.4.2",
+  "version": "2.6.1",
   "private": true,
   "author": "cooderl <cooder@111965.xyz>",
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": ">=18",
+    "node": ">=20.9.0",
     "pnpm": ">=8.6.1",
     "vscode": ">=1.79"
   },
@@ -18,5 +18,8 @@
     "start:web": "pnpm --filter web start",
     "fmt": "prettier --write .",
     "fmt.check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
   }
 }
